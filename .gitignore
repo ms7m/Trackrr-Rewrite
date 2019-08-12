@@ -3,10 +3,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# visual studio code
+.vscode/
+settings.json
+
 # C extensions
 *.so
 
 # Distribution / packaging
+
+pyvenv.cfg
+
 .Python
 build/
 develop-eggs/
@@ -18,6 +26,9 @@ lib/
 lib64/
 parts/
 sdist/
+bin/
+lib/
+include/
 var/
 wheels/
 *.egg-info/
