@@ -2,15 +2,15 @@ import modules.base as base
 #import modules.keys as keys
 import requests
 
-NAME = 'Spotify'
-SID = 'cc.trackrr.service.spotify'
-DESCRIPTION = 'Spotify provides access to millions of music formats in an instant for viewing and listening.'
+NAME = 'Apple Music'
+SID = 'cc.trackrr.service.apple'
+DESCRIPTION = 'Apple Music is Apple\'s answer to music streaming, providing high quality music information and media for its subscribers.'
 
 def search_song(title: str):
     return base.Song(
         'Example Song',
         'Duck Corps',
-        'https://spotify.com/',
+        'https://apple.com/',
         'https://viktorkoves.com/apollo/album-art-placeholder.png',
         'Christmas 9',
         'Example Album',
@@ -30,7 +30,7 @@ def search_album(title: str):
             'Cudi Montage'
         ],
         'Duck Corps',
-        'https://spotify.com/',
+        'https://apple.com/',
         'Christmas 9',
         'https://viktorkoves.com/apollo/album-art-placeholder.png',
         SID

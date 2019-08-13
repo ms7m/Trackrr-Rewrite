@@ -2,15 +2,15 @@ import modules.base as base
 #import modules.keys as keys
 import requests
 
-NAME = 'Spotify'
-SID = 'cc.trackrr.service.spotify'
-DESCRIPTION = 'Spotify provides access to millions of music formats in an instant for viewing and listening.'
+NAME = 'Tidal'
+SID = 'cc.trackrr.service.tidal'
+DESCRIPTION = 'Tidal is Jay-Z\'s premium streaming service built around providing the highest quality of audio and video.'
 
 def search_song(title: str):
     return base.Song(
         'Example Song',
         'Duck Corps',
-        'https://spotify.com/',
+        'https://tidal.com/',
         'https://viktorkoves.com/apollo/album-art-placeholder.png',
         'Christmas 9',
         'Example Album',
@@ -30,7 +30,7 @@ def search_album(title: str):
             'Cudi Montage'
         ],
         'Duck Corps',
-        'https://spotify.com/',
+        'https://tidal.com/',
         'Christmas 9',
         'https://viktorkoves.com/apollo/album-art-placeholder.png',
         SID
